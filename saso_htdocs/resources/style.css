@@ -1,0 +1,280 @@
+/* Banner */
+#saso-banner {
+	border-bottom: 1px solid #909090;
+}
+#saso-banner .container {
+	height: 110px;
+	position: relative;
+}
+#saso-banner table {
+	height: 100%;
+}
+#saso-banner-logo {
+	margin-right: 20px;
+}
+#saso-banner-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+#saso-banner-skyline {
+	position: absolute;
+	bottom:-1px;
+	right: -10px;
+}
+
+/* Top navigation */
+#saso-navbar {
+	border-width: 0 0 1px 0;
+	border-color: #909090;
+}
+#saso-navbar a {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#saso-navbar.affix {
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+#saso-navbar-wrapper {
+	height: 80px;
+}
+#saso-navbar-logo {
+	padding: 5px 15px;
+}
+.dropdown-menu li {
+	padding-left: 12px;
+}
+
+/* Add navbar offset to anchors */
+a.anchor {
+	display: block;
+	position: relative;
+	top: -51px; /* same as navbar height */
+	visibility: hidden;
+}
+
+/* Side Navigation */
+#saso-sidebar {
+	background: #F8F8F8;
+	border: 1px solid #909090;
+	border-radius: 5px;
+	padding: 5px 10px 10px 5px;
+	width: 250px;
+}
+#saso-sidebar.affix {
+	top: 80px;
+}
+#saso-sidenav li {
+	line-height: 2em;
+}
+#saso-sidebar-contacts, #saso-sidebar-newest-tweet, #saso-sidebar-part-of-fasstar, #saso-sidebar-dates, #saso-sidebar-sponsors {
+	margin: 20px 15px 15px 15px;
+}
+#saso-sidebar-newest-tweet {
+	height: 200px;
+}
+/* Center sidebar images */
+#saso-sidebar-sponsors img {
+	display: block;
+	margin: 20px auto;
+}
+
+/* Footer */
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+}
+
+body {
+	margin-bottom: 30px; /* same as .footer height */
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.footer p {
+	text-align: center;
+}
+
+/* Committee Accordion */
+.panel-collapse {
+	margin: 10px;
+}
+
+/* Make Google Maps responsive */
+iframe, object, embed {
+	max-width: 80%;
+}
+
+/* Registration table */
+.registration table {
+	border-collapse: collapse;
+}
+
+.registration td.empty {
+	border: none;
+}
+
+.registration td, .registration th {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+/* Important Dates table for Calls */
+.dates-table td {
+	padding: 5px 10px 5px 5px;
+	font-style: oblique;
+	font-size: 16px;
+}
+
+.dates-table td.date {
+	font-weight: bold;
+}
+
+.dates-table em {
+	font-weight: bold;
+}
+
+/* Important Dates table for sidebar */
+#saso-sidebar-dates table.sidebar-dates-table {
+	border-collapse: collapse;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr {
+	border: solid;
+	border-color: #909090;
+	border-width: 1px 0;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr:first-child {
+	border-top: none;
+}
+
+#saso-sidebar-dates .sidebar-dates-table tr:last-child {
+	border-bottom: none;
+}
+
+#saso-sidebar-dates .sidebar-dates-table td {
+	padding: 2px 2px 2px 2px;
+	font-style: oblique;
+	font-size: 12px;
+}
+
+#saso-sidebar-dates .sidebar-dates-table td.date {
+	font-weight: bold;
+}
+
+#saso-sidebar-dates .sidebar-dates-table em {
+	font-weight: bold;
+}
+
+#saso-sidebar-dates i {
+	padding: 10px 0px 5px 0px;
+	display: inline-block;
+	text-align: center;
+	font-style: oblique;
+	font-size: 12px;
+}
+
+div#saso-program {
+	overflow-x: auto;
+}
+
+#saso-program table {
+	border-collapse: collapse;
+	font-size: 16px;
+}
+
+#saso-program th {
+	border: solid black 1px;
+	background: #dce6f2;
+	width: 20%;
+}
+
+#saso-program td {
+	border: solid black 1px;
+	padding: 5px;
+	max-width: 160px;
+}
+
+#saso-program ul {
+	padding-left: 0px;
+}
+
+#saso-program li {
+	list-style-type: none;
+}
+
+#saso-program li:not(:first-child) {
+	padding-top: 1em;
+}
+
+#saso-program .social {
+	background: #fcd5b5;
+}
+
+#saso-program .special {
+	background: #ccc1da;
+}
+
+#saso-program .conference {
+	background: #ebf1de;
+}
+
+#saso-program .break {
+	background: yellow;
+}
+
+#saso-program .empty {
+	border: none;
+	background: none;
+}
+
+#saso-program .time {
+	text-align: center;
+	font-weight: bold;
+}
+
+#saso-program h4 {
+	font-weight: bold;
+}
+
+.saso-image {
+	float: right;
+	clear: both;
+	padding: 10px;
+	min-width: 160px;
+	width: 50%;
+	max-width: 300px;
+}
+
+.saso-image img {
+	min-width: 140px;
+	width: 100%;
+	max-width: 280px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.saso-small-image {
+	min-width: 120px;
+	max-width: 220px;
+}
+
+.saso-small-image img {
+	min-width: 100px;
+	width: 100%;
+	max-width: 200px;
+	padding-bottom: 5px;
+}
+
+h4 {
+	line-height: 1.45;
+}
