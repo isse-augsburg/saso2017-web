@@ -26,6 +26,8 @@
 							<li><a href="news.html">News</a></li>
 #endif
 #
+-->
+
 #if defined(__call_for_papers__) || defined(__call_for_workshops__) || defined(__calls__) || defined(__call_for_posters_and_demos__) || defined(__call_for_ds__)
 							<li class="active">
 								<a href="calls.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Calls <span class="sr-only">(current)</span> <span class="caret"></span></a>
@@ -34,6 +36,8 @@
 								<a href="calls.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Calls <span class="caret"></span></a>
 #endif
 								<ul class="dropdown-menu">
+                                  
+<!--                                  
 #ifdef __call_for_papers__
 									<li class="active"><a href="call_for_papers.html">Call for Papers <span class="sr-only">(current)</span></a></li>
 #else
@@ -46,12 +50,14 @@
 									<li><a href="call_for_workshops.html">Call for Workshops</a></li>
 #endif
 #
+-->
 #ifdef __call_for_posters_and_demos__
 									<li class="active"><a href="call_for_posters_and_demos.html">Call for Posters and Demos <span class="sr-only">(current)</span></a></li>
 #else
 									<li><a href="call_for_posters_and_demos.html">Call for Posters and Demos</a></li>
 #endif
 #
+<!-- 
 #ifdef __call_for_ds__
 									<li class="active"><a href="call_for_ds.html">Call for Doctoral Symposium <span class="sr-only">(current)</span></a></li>
 #else
@@ -67,10 +73,12 @@
 #ifdef __calls__
 									<li class="active"><a href="calls.html">All Calls <span class="sr-only">(current)</span></a></li>
 #else
-									<li><a href="calls.html">All Calls</a></li>
+									<li><a href="calls.html">All Calls</a></li> 
 #endif
+-->
 								</ul>
 							</li>
+                            <!-- 
 #ifdef __submission__
 							<li class="active"><a href="submission.html">Submission <span class="sr-only">(current)</span></a></li>
 #else
