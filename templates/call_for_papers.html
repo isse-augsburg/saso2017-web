@@ -2,21 +2,7 @@
 <html lang="en">
 #include "head.include.html"
 	<body>
-		<header id="saso-banner">
-			<div class="container">
-				<table cellspacing="0" cellpadding="0"><tr>
-				<td>
-					<img src="resources/logo-header.png" id="saso-banner-logo" class="hidden-xs" alt="SASO" />
-				</td>
-				<td>
-					<div id="saso-banner-title">SASO 2016</div>
-					<div id="saso-banner-subtitle">10th IEEE International Conference on Self-Adaptive<br class="hidden-xs hidden-sm hidden-lg" /> and Self-Organizing Systems</div>
-					<div id="saso-banner-location">University of Augsburg, Augsburg, Germany &middot; 12-16 September 2016</div>
-				</td>
-				</tr></table>
-				<img src="resources/skyline.png" id="saso-banner-skyline" class="hidden-xs hidden-sm" />
-			</div>
-		</header>
+#include "head.header.html"
 
 #include "navbar.include.html"
 
@@ -31,42 +17,39 @@ Aims and Scope
 </h2>
 
 <p>
-The aim of the Self-Adaptive and Self-Organizing systems conference series (SASO) is to provide a forum for the foundations of a principled approach to engineering
-systems, networks, and services based on self-adaptation and self-organization. The complexity of current and emerging networks, software, and services, especially
-when dealing with dynamics in the environment and problem domain, has led the software engineering, distributed systems, and management communities to look for
-inspiration in diverse fields (e.g., complex systems, control theory, artificial intelligence, sociology, and biology) to find new ways of designing and managing
-such computing systems. In this endeavor, self-organization and self-adaptation have emerged as two promising interrelated approaches. They form the basis for
-many other self-* properties, such as self-configuration, self-healing, or self-optimization. Systems exhibiting such properties are often referred to as self-* systems.
+The aim of the Self-Adaptive and Self-Organizing Systems conference series (SASO) is to provide a forum for the presentation and discussion of research on the foundations of engineered systems that self-adapt and self-organize. The complexity of current and emerging networks, software, and services can be characterized by issues such as scale, heterogeneity, openness, and dynamics in the environment. This has led the software engineering, distributed systems, and management communities to look for inspiration in diverse fields (e.g., complex systems, control theory, artificial intelligence, chemistry, psychology, sociology, and biology) to find new ways of designing and managing such computing systems in a principled way. In this endeavor, self-organization and self-adaptation have emerged as two promising interrelated approaches. They form the basis for many other so-called self-* properties, such as self-configuration, self-healing, or self-optimization.
+SASO aims to be an interdisciplinary meeting, where contributions from participants with different backgrounds leads to the fostering of a cross-pollination of ideas, and where innovative theories, frameworks, methodologies, tools, and applications can emerge.
 </p>
 
 <p>
-The tenth edition of the SASO conference embraces the inter-disciplinary nature and the scientific, empirical, and application dimensions of self-* systems and welcomes
-novel results on both self-adaptive and self-organizing systems research. The topics of interest include, but are not limited to:
+The eleventh edition of the SASO conference embraces this inter-disciplinary nature, and welcomes novel contributions to both the foundational and application-focused dimensions of self-adaptive and self-organizing systems research.
+The topics of interest include, but are not limited to: 
 </p>
 
 <ul>
-	<li> Systems theory: theoretical frameworks and models; biologically- and socially-inspired paradigms; inter-operation of self-* mechanisms;</li>
-	<li> Systems techniques: techniques to specify and analyze self-* systems, like statistical physics, machine learning, multi-agent systems, or other novel techniques;</li>
-	<li> Systems engineering: reusable mechanisms, design patterns, architectures, methodologies; software and middleware development frameworks and methods, platforms</li>
-and toolkits; hardware; self-* materials; governance of self-* systems, emergent behavior in self-* systems;
-	<li> System properties: robustness, resilience, and stability; emergence; computational awareness and self-awareness; reflection; anti-fragility;</li>
-	<li> Cyber-physical and socio-technical systems: human factors and visualization; self-* social computers; crowdsourcing and collective awareness; human-in-the-loop;</li>
+	<li> Systems theory: nature-inspired and socially-inspired paradigms and heuristics; inter-operation of 
+self-* mechanisms; theoretical frameworks and models; control theory;</li>
+	<li> System properties: robustness; resilience; stability; anti-fragility; diversity; self-reference and reflection; emergent behavior; computational awareness and self-awareness; </li>
+	<li> Systems engineering: reusable mechanisms and algorithms; design patterns; architectures; methodologies; software and middleware development frameworks and methods; platforms and toolkits; multi-agent systems;
+	<li> Theory and practice of organization: self-governance, change management, electronic institutions, distributed consensus, commons, knowledge management, and the general use of rules, policies, etc. in self-* systems</li>
+	<li> Theory and practice of adaptation: mechanisms for adaptation, including evolution, logic, learning; adaptability, plasticity, flexibility</li>
+    <li> Socio-technical systems: human and social factors; visualization; crowdsourcing and collective awareness; humans-in-the-loop; ethics and humanities in self-* systems;</li>
 	<li> Data-driven approaches: data mining; machine learning; data science and other statistical techniques to analyze, understand, and manage behavior of complex systems;</li>
-	<li> Education: experience reports; curricula; innovative course concepts; methodological aspects of self-* systems education;</li>
-	<li> Ethics and Humanities in self-* systems;</li>
-	<li> Applications and experiences with self-* systems in any of the following domains:
+	<li> Self-adaptive and self-organizing hardware: self-* materials; self-construction; reconfigurable hardware;</li>
+    <li> Education: experience reports; curricula; innovative course concepts; methodological aspects of self-* systems education;</li>
+	<li> Applications and experiences with self-* systems in any of the following domains are of particular interest:
 		<ul>
-			<li>Smart-*: application of self-* principles to smart-grids, smart-cities, smart-environments, smart-vehicles</li>
-			<li>Industrial automation: embedded self-* systems, adaptive industrial plants, smart industries (Industry 4.0) </li>
-			<li>Transportation: autonomous vehicles, coordination between vehicles, pedestrians, and infrastructure, and traffic optimization</li>
-			<li>Unmanned systems: aerial vehicles, undersea vehicles, other robotic platforms</li>
-			<li>Internet of Things: challenges, applications, and benefits; self-* for network management, self-* applied to Cybersecurity</li>
+			<li>Smart systems: smart grids, smart cities, smart environments, smart homes, etc.</li>
+			<li>Industrial automation: embedded self-* systems, adaptive industrial plants, Industry 4.0, cyber physical systems</li>
+			<li>Transportation: autonomous vehicles, traffic optimization</li>
+			<li>Autonomous systems: aerial vehicles, undersea vehicles, autonomous robotics</li>
+			<li>Internet of Things: self-* for network management, self-* applied to cyber security</li>
 		</ul>
 	</li>
 </ul>
 
 <p>
-We are looking for contributions that present novel theoretical or experimental results, novel design patterns, mechanisms, system architectures, frameworks or tools, or practical approaches and experiences in building or deploying real-world systems and applications. Contributions contrasting different approaches for engineering a given family of systems, or demonstrating the applicability of a certain approach for different systems, are equally encouraged. Likewise, papers describing substantial innovation or insights in the use and communication of self-* systems in the classroom are welcome.
+We are looking for contributions that present new fundamental understanding of self-adaptive and self-organizing systems and how they can be engineered and used, including: novel theoretical or experimental results, novel design patterns, mechanisms, system architectures, frameworks, tools, and practical experiences in building or deploying systems and applications. Contributions contrasting different approaches for engineering a given family of systems, or demonstrating the applicability of a certain approach for different systems, are equally encouraged. Likewise, papers describing substantial innovation or insights in the use and communication of self-* systems in the classroom are welcome.
 </p>
 
 <p>
@@ -78,12 +61,22 @@ Important Dates
 </h2>
 
 <table class="dates-table">
+	<tr><td>Abstract submission</td> <td class="date">May 1, 2017</td></tr>
+	<tr><td>Paper submission</td> <td class="date">May 10, 2017</td></tr>
+	<tr><td>Notification </td> <td class="date"> June 30, 2017</td></tr>
+	<tr><td>Camera ready copy due</td> <td class="date"> July 12, 2017</td></tr>
+	<tr><td>Conference</td> <td class="date"> September 18-22, 2017</td></tr>
+</table>
+
+<!--
+<table class="dates-table">
 	<tr><td><del>Abstract submission <em>(extended)</em></del></td> <td class="date"><del>May 13, 2016 </del></td></tr>
 	<tr><td><del>Paper submission <em>(extended)</em></del></td> <td class="date"><del>May 23, 2016</del></td></tr>
 	<tr><td><del>Notification</del></td> <td class="date"> <del>June 23, 2016</del></td></tr>
 	<tr><td><del>Camera ready copy due</del></td> <td class="date"><del> July 5, 2016 </del></td></tr>
 	<tr><td>Conference</td> <td class="date"> September 12-16, 2016</td></tr>
 </table>
+-->
 
 <h2>
 Submission Instructions
@@ -91,10 +84,9 @@ Submission Instructions
 
 <p>
 Submissions can be up to 10 pages, formatted according to the standard IEEE Computer Society Press proceedings style guide, and submitted electronically in PDF format.
-Please register as authors and submit your papers using the SASO 2016 conference management system at:
-</p>
+Please submit your papers using the SASO 2017 conference management system: </p>
 <p>
-<a target="_blank" href="https://easychair.org/conferences/?conf=saso2016">https://easychair.org/conferences/?conf=saso2016</a>.
+<a target="_blank" href="https://easychair.org/conferences/?conf=saso2016">https://easychair.org/conferences/?conf=saso2017</a>.
 </p>
 <p>
 The proceedings will be published by IEEE Computer Society Press, and made available as a part of the IEEE Digital Library. Note that a separate Call for Poster and Demo Submissions
@@ -107,20 +99,42 @@ Review Criteria
 </h2>
 
 <p>
-Papers should present novel ideas in the cross-disciplinary research context described in this call, motivated by problems from current practice or applied research. Both theoretical and empirical contributions should be highlighted, substantiated by formal analysis, simulation, experimental evaluations, comparative studies, and so on. Appropriate references must be made to related work. Because SASO is a cross-disciplinary conference, we encourage papers to be intelligible and relevant to researchers who are not members of the same specialized sub-field.
+Papers should present novel ideas in the cross-disciplinary research context described in this call, motivated by problems from current practice or applied research. Both theoretical and empirical contributions should be highlighted, substantiated by formal analysis, simulation, experimental evaluations, or comparative studies, etc. Appropriate references must be made to related work. Because SASO is a cross-disciplinary conference, we encourage papers to be intelligible and relevant to researchers who are not members of the same specialized sub-field.
 </p>
 <p>
-Authors are also encouraged to submit papers describing applications. Application papers should provide an indication of the real world relevance of the problem that is solved, including a description of the deployment domain, and some form of evaluation of performance, usability, or comparison to alternative approaches. Experience papers are also welcome, especially if they highlight insights into any aspect of design, implementation or management of self-* systems that would be of benefit to practitioners and the SASO community. 
-All submissions will be rigorously peer reviewed and evaluated on the basis of the quality of their technical contribution, originality, soundness, significance, presentation, understanding of the state of the art, and overall quality.
+Authors are also encouraged to submit papers describing applications. Application papers should provide an indication of the real-world relevance of the problem that is solved, including a description of the domain, and an evaluation of performance, usability, or comparison to alternative approaches. Experience papers are also welcome, especially if they highlight insights into any aspect of design, implementation or management of self-* systems that would be of benefit to practitioners and the SASO community. 
+All submissions will be rigorously peer reviewed and evaluated based on the quality of their technical contribution, originality, soundness, significance, presentation, understanding of the state of the art, and overall quality.
 </p>
 
 <h2>
 Contact Information
 </h2>
 
+<h3>Conference General Chair </h3>
+
+<p>
+Ada Diaconescu<br/>
+Telecom Paris-Tech, Paris, FR
+</p>
+<h3>Program Chairs </h3>
+<p>
+Peter Lewis, <br/>
+Aston University, Birmingham, UK
+</p>
+
+<p>Sam Malek, <br/>
+University of California, Irvine, USA
+</p>
+
+<p>
+Hella Seebach, <br/>
+Augsburg University, Augsburg, DE
+</p>
+<!--
 <p>
 For any further information, please contact the <a href="committees.html#program_chairs">Program Chairs</a>.
 </p>
+-->
 
 				</div>
 				<div class="col-md-3 hidden-xs hidden-sm" role="complementary">
