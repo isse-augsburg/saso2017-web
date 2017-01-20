@@ -46,6 +46,11 @@
 	padding-left: 12px;
 }
 
+.checkmark {
+    font-size: 20px;
+    color: green;
+}
+
 /* Add navbar offset to anchors */
 a.anchor {
 	display: block;
@@ -109,6 +114,34 @@ html {
 /* Make Google Maps responsive */
 iframe, object, embed {
 	max-width: 80%;
+}
+
+/* Sponsors table */
+.sponsors table {
+	border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.sponsors td.empty {
+	border: none;
+}
+
+.sponsors tr:nth-child(even) {background-color: #f2f2f2}
+
+.sponsors td {
+	margin: 5px;
+	padding: 5px;
+    text-align: center;
+}
+
+.sponsors .items {
+    text-align: left;
+}
+
+.sponsors th {
+	margin: 15px;
+	padding: 20px;
+    text-align: center;
 }
 
 /* Registration table */
