@@ -117,9 +117,10 @@ iframe, object, embed {
 }
 
 /* Sponsors table */
-.sponsors table {
+table.sponsors  {
 	border-collapse: collapse;
     border: 1px solid grey;
+  
 }
 
 .sponsors td.empty {
@@ -129,13 +130,19 @@ iframe, object, embed {
 .sponsors tr:nth-child(even) {background-color: #f2f2f2}
 
 .sponsors td {
-	margin: 5px;
-	padding: 5px;
+	margin: 50px;
+	padding: 10px;
     text-align: center;
+}
+
+.sponsors td, .sponsors th {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .sponsors .items {
     text-align: left;
+    padding-left:10px;
 }
 
 .sponsors th {
